@@ -1,0 +1,12 @@
+D:\Programowanie\backend\l1\ApplicationCore\bin\Debug\net8.0\ApplicationCore.deps.json
+D:\Programowanie\backend\l1\ApplicationCore\bin\Debug\net8.0\ApplicationCore.dll
+D:\Programowanie\backend\l1\ApplicationCore\bin\Debug\net8.0\ApplicationCore.pdb
+D:\Programowanie\backend\l1\ApplicationCore\obj\Debug\net8.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie\backend\l1\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\Programowanie\backend\l1\ApplicationCore\obj\Debug\net8.0\ApplicationCore.AssemblyInfo.cs
+D:\Programowanie\backend\l1\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Programowanie\backend\l1\ApplicationCore\obj\Debug\net8.0\ApplicationCore.sourcelink.json
+D:\Programowanie\backend\l1\ApplicationCore\obj\Debug\net8.0\ApplicationCore.dll
+D:\Programowanie\backend\l1\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
+D:\Programowanie\backend\l1\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
+D:\Programowanie\backend\l1\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll

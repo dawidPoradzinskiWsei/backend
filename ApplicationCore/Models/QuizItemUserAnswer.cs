@@ -1,20 +1,15 @@
-﻿using ApplicationCore.Interfaces.Repository;
+﻿using ApplicationCore.Commons.Repository;
+using ApplicationCore.Models.QuizAggregate;
 
-namespace BackendLab01;
+namespace ApplicationCore.Models;
 
-public class QuizItemUserAnswer: IIdentity<string>
+public class QuizItemUserAnswer(QuizItem quizItem, int userId, int quizId, string answer)
+    : IIdentity<string>
 {
-    public int QuizId { get; }
-    public QuizItem  QuizItem{ get; }
-    public int UserId { get; }
-    public string Answer { get; }
-    public QuizItemUserAnswer(QuizItem quizItem, int userId, int quizId,string answer)
-    {
-        QuizItem = quizItem;
-        Answer = answer;
-        UserId = userId;
-        QuizId = quizId;
-    }
+    public int QuizId { get; } = quizId;
+    public QuizItem  QuizItem{ get; } = quizItem;
+    public int UserId { get; } = userId;
+    public string Answer { get; } = answer;
 
     public bool IsCorrect()
     {
@@ -23,7 +18,7 @@ public class QuizItemUserAnswer: IIdentity<string>
 
     public string Id
     {
-        get => $"{QuizId}{UserId}{QuizItem.Id}";
+        get => $"{QuizId}-{UserId}-{QuizItem.Id}";
         set
         {
             

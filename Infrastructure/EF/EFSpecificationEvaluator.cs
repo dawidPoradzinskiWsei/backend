@@ -1,25 +1,24 @@
-﻿using ApplicationCore.Interfaces.Criteria;
-using System.Linq;
+﻿using ApplicationCore.Commons.Specification;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure;
+namespace Infrastructure.EF;
 
-public class EFSpecificationEvaluator<TEntity> where TEntity : class
+public class EfSpecificationEvaluator<TEntity> where TEntity : class
 {
     public static IQueryable<TEntity> GetQuery(IQueryable<TEntity> inputQuery, ISpecification<TEntity> spec)
     {
         var query = inputQuery;
-        if (spec.Criteria is not null)
+        if (spec.Criteria != null)
         {
             query = query.Where(spec.Criteria);
         }
 
-        if (spec.OrderBy is not null)
+        if (spec.OrderBy != null)
         {
             query = query.OrderBy(spec.OrderBy);
         }
 
-        if (spec.OrderByDescending is not null)
+        if (spec.OrderByDescending != null)
         {
             query = query.OrderByDescending(spec.OrderByDescending);
         }

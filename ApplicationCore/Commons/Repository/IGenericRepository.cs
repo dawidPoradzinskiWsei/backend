@@ -1,6 +1,6 @@
-﻿using ApplicationCore.Interfaces.Criteria;
+﻿using ApplicationCore.Commons.Specification;
 
-namespace ApplicationCore.Interfaces.Repository;
+namespace ApplicationCore.Commons.Repository;
 
 public interface IGenericRepository<T, K> where T: IIdentity<K> where K : IComparable<K>
 {

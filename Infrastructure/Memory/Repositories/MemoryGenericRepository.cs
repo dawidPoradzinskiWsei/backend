@@ -1,7 +1,8 @@
-﻿using ApplicationCore.Interfaces.Criteria;
-using ApplicationCore.Interfaces.Repository;
+﻿using ApplicationCore.Commons.Repository;
+using ApplicationCore.Commons.Specification;
+using Infrastructure.Memory.Generators;
 
-namespace Infrastructure.Memory.Repository;
+namespace Infrastructure.Memory.Repositories;
 
 public class MemoryGenericRepository<T, K>:IGenericRepository<T, K> where T: class, IIdentity<K> where K : IComparable<K>
 {

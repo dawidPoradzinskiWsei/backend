@@ -1,19 +1,12 @@
-﻿using ApplicationCore.Interfaces.Repository;
+﻿using ApplicationCore.Commons.Repository;
 
-namespace BackendLab01;
+namespace ApplicationCore.Models.QuizAggregate;
 
-public class QuizItem: IIdentity<int>
+public class QuizItem(int id, string question, List<string> incorrectAnswers, string correctAnswer)
+    : IIdentity<int>
 {
-    public int Id { get; set; }
-    public string Question { get; }
-    public List<string> IncorrectAnswers { get; }
-    public string CorrectAnswer { get;  }
-
-    public QuizItem(int id, string question, List<string> incorrectAnswers, string correctAnswer)
-    {
-        Id = id;
-        Question = question;
-        IncorrectAnswers = incorrectAnswers;
-        CorrectAnswer = correctAnswer;
-    }
+    public int Id { get; set; } = id;
+    public string Question { get; } = question;
+    public List<string> IncorrectAnswers { get; } = incorrectAnswers;
+    public string CorrectAnswer { get;  } = correctAnswer;
 }

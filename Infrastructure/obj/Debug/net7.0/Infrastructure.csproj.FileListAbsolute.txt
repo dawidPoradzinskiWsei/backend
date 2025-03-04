@@ -1,0 +1,16 @@
+D:\Programowanie\backend\l1\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+D:\Programowanie\backend\l1\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+D:\Programowanie\backend\l1\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+D:\Programowanie\backend\l1\Infrastructure\bin\Debug\net7.0\ApplicationCore.dll
+D:\Programowanie\backend\l1\Infrastructure\bin\Debug\net7.0\ApplicationCore.pdb
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\Infrastructure.sourcelink.json
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\Infrastr.15EFFBFE.Up2Date
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+D:\Programowanie\backend\l1\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll

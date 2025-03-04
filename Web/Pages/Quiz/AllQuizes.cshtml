@@ -1,0 +1,17 @@
+@page
+@model AllQuizes
+@{
+    ViewData["Title"] = "All quizes";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<H3>@ViewData["Title"]</H3>
+<p>Here are all the quizes:</p>
+<ul>
+    @foreach (var quiz in Model.Quizes)
+    {
+        <li>
+            <a asp-page="/Quiz/Item" asp-route-itemId="1" asp-route-quizId="@quiz.Id">@quiz.Title</a>
+        </li>
+    }
+</ul>

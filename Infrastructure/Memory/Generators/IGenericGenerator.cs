@@ -1,7 +1,7 @@
-﻿namespace Infrastructure.Memory;
+﻿namespace Infrastructure.Memory.Generators;
 
-public interface IGenericGenerator<K>
+public interface IGenericGenerator<out TK>
 {
-    K Next { get; }
-    K Current { get; }
+    TK Next { get; }
+    TK Current { get; }
 }

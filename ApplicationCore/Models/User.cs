@@ -1,10 +1,10 @@
-﻿using ApplicationCore.Interfaces.Repository;
+﻿using ApplicationCore.Commons.Repository;
 
-namespace BackendLab01;
+namespace ApplicationCore.Models;
 
 public class User: IIdentity<int>
 {
     public int Id { get; set; }
     
-    public string Username { get; init; }
+    public string? Username { get; init; }
 }

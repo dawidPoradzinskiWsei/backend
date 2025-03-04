@@ -1,4 +1,6 @@
-﻿namespace BackendLab01;
+﻿using ApplicationCore.Models.QuizAggregate;
+
+namespace BackendLab01;
 
 public interface IQuizAdminService
 {
