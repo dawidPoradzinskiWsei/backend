@@ -44,4 +44,9 @@ public class QuizUserService: IQuizUserService
         //     .ToList();
         return answerRepository.FindBySpecification(new QuizItemsForQuizIdFilledByUser(quizId, userId)).ToList();
     }
+
+    IEnumerable<Quiz> IQuizUserService.FindAllQuizes()
+    {
+        return quizRepository.FindAll();
+    }
 }

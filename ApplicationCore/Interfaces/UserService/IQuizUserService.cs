@@ -18,4 +18,6 @@ public interface IQuizUserService
         return GetUserAnswersForQuiz(quizId, userId)
             .Count(e => e.IsCorrect());
     }
+
+    IEnumerable<Quiz> FindAllQuizes();
 }
