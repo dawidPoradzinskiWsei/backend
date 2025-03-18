@@ -10,7 +10,6 @@ public class QuizItemDto
     {
 
         List<string> connectedList = quiz.IncorrectAnswers;
-        connectedList.Add(quiz.CorrectAnswer);
 
         List<string> newList = new List<string>();
 
@@ -18,7 +17,7 @@ public class QuizItemDto
 
         int nr = random.Next(0, connectedList.Count);
 
-        for(int i = 0; i < connectedList.Count; i++)
+        for(int i = 0; i <= connectedList.Count; i++)
         {
             newList.Add(connectedList[nr]);
             nr++;

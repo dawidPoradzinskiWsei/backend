@@ -44,8 +44,8 @@ public class QuizController : Controller
 
     [HttpGet]
     [Route("{quizId}/correct/{userId}")]
-    public ActionResult<int> FindCorrectAnswersCount(int quizId,int userId)
+    public ActionResult<Dictionary<string,int>> FindCorrectAnswersCount(int quizId,int userId)
     {
-        return Ok(_service.CountCorrectAnswersForQuizFilledByUser(quizId,userId));
+        return Ok(new Dictionary<string,int>() { {"correct", _service.CountCorrectAnswersForQuizFilledByUser(quizId,userId)} });
     }
 }
