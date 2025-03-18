@@ -1,33 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\UnitTest\\UnitTest.csproj": {}
+    "D:\\Programowanie\\backend\\l1\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "D:\\Users\\dawid.poradzinski\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\obj\\",
+        "projectPath": "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
+        "outputPath": "D:\\Programowanie\\backend\\l1\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "D:\\Users\\dawid.poradzinski\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dawid\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0",
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,46 +89,40 @@
         }
       }
     },
-    "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Programowanie\\backend\\l1\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Programowanie\\backend\\l1\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "D:\\Users\\dawid.poradzinski\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Programowanie\\backend\\l1\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
+        "outputPath": "D:\\Programowanie\\backend\\l1\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "D:\\Users\\dawid.poradzinski\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dawid\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0",
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           },
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -206,52 +194,46 @@
         }
       }
     },
-    "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\UnitTest\\UnitTest.csproj": {
+    "D:\\Programowanie\\backend\\l1\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "D:\\Programowanie\\backend\\l1\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\UnitTest\\UnitTest.csproj",
-        "packagesPath": "D:\\Users\\dawid.poradzinski\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\UnitTest\\obj\\",
+        "projectPath": "D:\\Programowanie\\backend\\l1\\UnitTest\\UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Dawid\\.nuget\\packages\\",
+        "outputPath": "D:\\Programowanie\\backend\\l1\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "D:\\Users\\dawid.poradzinski\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dawid\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0",
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Programowanie\\backend\\l1\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Programowanie\\backend\\l1\\Infrastructure\\Infrastructure.csproj"
               }
             }
           },
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\ApplicationCore\\ApplicationCore.csproj"
+              "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Programowanie\\backend\\l1\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Users\\dawid.poradzinski\\Desktop\\wsei-backend-lab-lab-01\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Programowanie\\backend\\l1\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Programowanie\\backend\\l1\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

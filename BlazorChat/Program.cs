@@ -1,7 +1,18 @@
+using ApplicationCore.Commons.Repository;
+using ApplicationCore.Models;
+using ApplicationCore.Models.QuizAggregate;
+using BackendLab01;
 using BlazorChat;
 using BlazorChat.Components;
+using Infrastructure.Memory;
+using Infrastructure.Memory.Generators;
+using Infrastructure.Memory.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddSingleton<IGenericRepository<ChatUser, int>, MemoryGenericRepository<ChatUser, int>>();
+
+builder.Services.AddScoped<IChatUserService, ChatUserService>();
 
 builder.Services.AddSignalR();
 // Add services to the container.
