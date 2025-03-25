@@ -38,4 +38,10 @@ public class QuizAdminService:IQuizAdminService
     public List<Quiz> FindAllQuizzes()
     { return quizRepository.FindAll();
     }
+
+    public void RemoveQuiz(int id)
+    {
+        quizRepository.RemoveById(id);
+    }
+
 }
