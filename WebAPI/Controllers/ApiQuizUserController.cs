@@ -1,4 +1,5 @@
 using ApplicationCore.Models.QuizAggregate;
+using AutoMapper;
 using BackendLab01;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,10 +8,12 @@ using Microsoft.AspNetCore.Mvc;
 public class QuizController : Controller 
 {
     private readonly IQuizUserService _service;
+    private readonly IMapper _mapper;
 
-    public QuizController(IQuizUserService service)
+    public QuizController(IQuizUserService service, IMapper mapper)
     {
         _service = service;
+        _mapper = mapper;
     }
 
     [HttpGet]
@@ -47,5 +50,19 @@ public class QuizController : Controller
     public ActionResult<Dictionary<string,int>> FindCorrectAnswersCount(int quizId,int userId)
     {
         return Ok(new Dictionary<string,int>() { {"correct", _service.CountCorrectAnswersForQuizFilledByUser(quizId,userId)} });
+    }
+
+    [Route("{quizId}/answers/{userId}")]
+    [HttpGet]
+    public ActionResult<object> GetQuizFeedback(int quizId, int userId)
+    {
+        var feedback = _service.GetUserAnswersForQuiz(quizId, userId);
+
+        if(feedback.Count == 0)
+        {
+            return StatusCode(StatusCodes.Status204NoContent);
+        }
+
+        return _mapper.Map<FeedbackDTO>(feedback);
     }
 }

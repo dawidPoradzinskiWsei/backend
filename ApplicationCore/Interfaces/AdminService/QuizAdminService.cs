@@ -36,7 +36,8 @@ public class QuizAdminService:IQuizAdminService
     }
 
     public List<Quiz> FindAllQuizzes()
-    { return quizRepository.FindAll();
+    {
+         return quizRepository.FindAll();
     }
 
     public void RemoveQuiz(int id)
@@ -44,4 +45,8 @@ public class QuizAdminService:IQuizAdminService
         quizRepository.RemoveById(id);
     }
 
+    public Quiz AddQuiz(Quiz quiz)
+    {
+        return quizRepository.Add(quiz);
+    }
 }

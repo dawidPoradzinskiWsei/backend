@@ -2,6 +2,8 @@ using ApplicationCore.Commons.Repository;
 using ApplicationCore.Models;
 using ApplicationCore.Models.QuizAggregate;
 using BackendLab01;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Infrastructure.Memory;
 using Infrastructure.Memory.Repositories;
 using Scalar.AspNetCore;
@@ -13,7 +15,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddControllers()
     .AddNewtonsoftJson();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddFluentValidationAutoValidation();
 
+
+builder.Services.AddScoped<IValidator<QuizItem>, QuizItemValidator>();
 builder.Services.AddSingleton<IGenericRepository<Quiz, int>, MemoryGenericRepository<Quiz, int>>();
 builder.Services.AddSingleton<IGenericRepository<QuizItem, int>, MemoryGenericRepository<QuizItem, int>>();
 builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer, string>, MemoryGenericRepository<QuizItemUserAnswer, string>>();
